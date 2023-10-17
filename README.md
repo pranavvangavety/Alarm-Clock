@@ -1,8 +1,9 @@
 # Alarm-Clock
 
+This is a simple alarm clock application written in Python using the Tkinter library. It allows you to set a specific time for an alarm, and when that time is reached, it plays the specified alarm sound.
+
 ![image](https://github.com/pranavvangavety/Alarm-Clock/assets/115496999/377855b9-52a0-41df-b96a-e6551743c63b)
 
-This is a simple alarm clock application written in Python using the Tkinter library. It allows you to set a specific time for an alarm, and when that time is reached, it plays a sound to wake you up.
 
 ## Features
 
