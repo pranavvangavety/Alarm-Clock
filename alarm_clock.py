@@ -2,7 +2,6 @@
 from tkinter import *
 import datetime
 import time
-from playsound import playsound
 from threading import *
 from pydub import AudioSegment
 from pydub.playback import play
