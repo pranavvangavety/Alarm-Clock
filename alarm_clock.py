@@ -28,7 +28,7 @@ def alarm():
 
 		if current_time == set_alarm_time:
 			print("Time to Wake up")
-			playsound('C:\Users\Pranav\Downloads\alarm-clock-short-6402.mp3')
+			playsound('alarm_sound.mp3')
 
 
 Label(root,text="Alarm Clock",font=("Helvetica 20 bold"),fg="red").pack(pady=10)
