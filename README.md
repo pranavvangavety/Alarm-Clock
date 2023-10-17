@@ -15,4 +15,4 @@ This is a simple alarm clock application written in Python using the Tkinter lib
 ## Dependencies
 
 - [Tkinter](https://docs.python.org/3/library/tkinter.html): The Python standard library for creating graphical user interfaces.
-- [playsound](https://pypi.org/project/playsound/): A Python library for playing audio files.
+- [pydub](https://github.com/jiaaro/pydub): A Python library for audio file manipulation. Please note that `pydub` relies on external tools like `ffmpeg` for audio format conversion.
