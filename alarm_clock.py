@@ -4,6 +4,9 @@ import datetime
 import time
 from playsound import playsound
 from threading import *
+from pydub import AudioSegment
+from pydub.playback import play
+
 
 
 root = Tk()
@@ -28,7 +31,8 @@ def alarm():
 
 		if current_time == set_alarm_time:
 			print("Time to Wake up")
-			playsound('alarm_sound.mp3')
+			song = AudioSegment.from_mp3('alarm_sound.mp3')
+			play(song)
 
 
 Label(root,text="Alarm Clock",font=("Helvetica 20 bold"),fg="red").pack(pady=10)
